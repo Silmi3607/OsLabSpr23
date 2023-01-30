@@ -5,3 +5,4 @@
 ![Task 4(2)](https://user-images.githubusercontent.com/123944620/215531805-e1894ddf-119e-4939-82dc-6027b3c55cdc.png)
 ![Task 4(3)](https://user-images.githubusercontent.com/123944620/215531825-5f0d4ba2-11ce-491c-b280-a08455bed235.png)
 ![Task 5](https://user-images.githubusercontent.com/123944620/215532484-0a569966-0cdd-4a70-880d-bbaee3dc12c3.png)
+![Task 6](https://user-images.githubusercontent.com/123944620/215532728-b1634951-d092-4545-a58c-ecd4b49b98af.png)
