@@ -1,0 +1,33 @@
+Script started on 2023-01-30 15:31:37+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="236" LINES="52"]
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m cd Desktop
+[?2004l
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m cat file
+[?2004lsilmi boss 
+
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m strings file
+[?2004lsilmi boss 
+
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m ls
+[?2004lfile
+
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m echo "Hello"
+[?2004lHello
+
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m ec[K[Kecho [K[K[K[K[Kdate
+[?2004lMon Jan 30 03:32:29 PM PKT 2023
+
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m md5sum file
+[?2004l023b4f13aeac15ceb306c2d7becec76a  file
+
+[?2004h]0;silmi@kali: ~/Desktop[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~/Desktop[;32m]
+[;32m└─[1;34m$[0m [?2004l
+exit
+
+Script done on 2023-01-30 15:32:43+05:00 [COMMAND_EXIT_CODE="0"]
