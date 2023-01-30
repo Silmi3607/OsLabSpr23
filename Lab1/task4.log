@@ -1,0 +1,120 @@
+Script started on 2023-01-30 15:37:58+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="236" LINES="52"]
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo adduser Tanjiro
+[?2004l[sudo] password for silmi: 
+adduser: Please enter a username matching the regular expression
+            configured via the NAME_REGEX configuration variable.  Use the
+            `--allow-badname' option to relax this check or reconfigure
+            NAME_REGEX in /etc/adduser.conf.
+
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo adduser tanjiro
+[?2004lAdding user `tanjiro' ...
+Adding new group `tanjiro' (1003) ...
+Adding new user `tanjiro' (1003) with group `tanjiro (1003)' ...
+Creating home directory `/home/tanjiro' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for tanjiro
+Enter the new value, or press ENTER for the default
+	Full Name []: Kamado Tanjiro
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `tanjiro' to supplemental / extra groups `users' ...
+Adding user `tanjiro' to group `users' ...
+
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo usermod -aG sudo tanjiro
+[?2004l
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo chsh -s /bin/bash tanjiro
+[?2004l
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo adduser muzan
+[?2004lAdding user `muzan' ...
+Adding new group `muzan' (1004) ...
+Adding new user `muzan' (1004) with group `muzan (1004)' ...
+Creating home directory `/home/muzan' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for muzan
+Enter the new value, or press ENTER for the default
+	Full Name []: Muzan Kit butsuji
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `muzan' to supplemental / extra groups `users' ...
+Adding user `muzan' to group `users' ...
+
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo usermod -aG muzan
+[?2004lUsage: usermod [options] LOGIN
+
+Options:
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -b, --badname                 allow bad names
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -r, --remove                  remove the user from only the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo usermod -aG sudo muzan
+[?2004l
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m sudo chsh -s /bin/bash muzan
+[?2004l
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m su tanjiro
+[?2004lPassword: 
+[?2004h]0;tanjiro@kali: /home/silmi[;32m┌──([1;34mtanjiro㉿kali[;32m)-[[0;1m/home/silmi[;32m]
+[;32m└─[1;34m$[0m cd /home/
+[?2004l
+[?2004h]0;tanjiro@kali: /home[;32m┌──([1;34mtanjiro㉿kali[;32m)-[[0;1m/home[;32m]
+[;32m└─[1;34m$[0m ls
+[?2004l[0m[01;34mbatman[0m  [01;34mmeesum[0m  [01;34mmuzan[0m  [01;34msilmi[0m  [01;34mtanjiro[0m
+
+[?2004h]0;tanjiro@kali: /home[;32m┌──([1;34mtanjiro㉿kali[;32m)-[[0;1m/home[;32m]
+[;32m└─[1;34m$[0m [?2004l
+exit
+
+[?2004h]0;silmi@kali: ~[;32m┌──([1;34msilmi㉿kali[;32m)-[[0;1m~[;32m]
+[;32m└─[1;34m$[0m [?2004l
+exit
+
+Script done on 2023-01-30 15:46:15+05:00 [COMMAND_EXIT_CODE="0"]
